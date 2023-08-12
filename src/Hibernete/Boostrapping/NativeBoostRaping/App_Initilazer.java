@@ -10,7 +10,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-<<<<<<< HEAD
+
 import javax.transaction.Transaction;
 import java.io.IOException;
 
@@ -100,23 +100,6 @@ public class App_Initilazer extends Application {
 //
 //    }
 //}
-=======
-public class App_Initilazer {
-    public static void main(String[] args) {
-        // save
-        Session session =  SessionFactoryConfig.getInstance().getSession();
-
-        Customer customer = new Customer();
-        customer.setId(3);
-        customer.setName("Punchihewa");
-        customer.setAddress("Matara");
-        customer.setSalary(100000.00);
-
-
-        Transaction transaction = session.beginTransaction();
-        session.save(customer);
-        transaction.commit();
-        session.close();
 
           //update
 //        Session session1 = SessionFactoryConfig.getInstance().getSession();
@@ -140,6 +123,4 @@ public class App_Initilazer {
 
 
 
-    }
-}
->>>>>>> bd8f6749d055c14b42154c593723e72a8714da0d
+

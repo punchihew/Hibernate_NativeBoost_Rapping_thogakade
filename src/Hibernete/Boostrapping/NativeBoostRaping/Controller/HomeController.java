@@ -113,7 +113,7 @@ public class HomeController {
                     root = FXMLLoader.load(this.getClass().getResource("/Hibernete/Boostrapping/NativeBoostRaping/View/Resources/Iteam.fxml"));
                     break;
                 case "imgOrder":
-                    root = FXMLLoader.load(this.getClass().getResource("/lk/ijse/pos/view/place-order-form.fxml"));
+                    root = FXMLLoader.load(this.getClass().getResource("/Hibernete/Boostrapping/NativeBoostRaping/View/Resources/Order.fxml"));
                     break;
                 case "imgViewOrders":
                     root = null;
