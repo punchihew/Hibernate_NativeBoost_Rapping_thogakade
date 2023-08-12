@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="root" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" styleClass="mainFxmlClass" stylesheets="@Style_Sheet/main-form.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Hibernete.Boostrapping.NativeBoostRaping.Controller.HomeController">
+    <children>
+        <ImageView fitHeight="44.0" fitWidth="200.0" layoutX="200.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+            <!--            <image>-->
+            <!--                <Image url="@assests/images/ijse-logo.gif" />-->
+            <!--            </image>-->
+        </ImageView>
+        <ImageView fx:id="imgCustomer" fitHeight="80.0" fitWidth="80.0" layoutX="57.0" layoutY="165.0" onMouseClicked="#navigate" onMouseEntered="#playMouseEnterAnimation" onMouseExited="#playMouseExitAnimation" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../Accepts/3.png" />
+            </image>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </ImageView>
+        <ImageView fx:id="imgItem" fitHeight="80.0" fitWidth="80.0" layoutX="189.0" layoutY="165.0" onMouseClicked="#navigate" onMouseEntered="#playMouseEnterAnimation" onMouseExited="#playMouseExitAnimation" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../Accepts/4.png" />
+            </image>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </ImageView>
+        <ImageView fx:id="imgOrder" fitHeight="80.0" fitWidth="80.0" layoutX="324.0" layoutY="165.0" onMouseClicked="#navigate" onMouseEntered="#playMouseEnterAnimation" onMouseExited="#playMouseExitAnimation" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../Accepts/1.png" />
+            </image>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </ImageView>
+        <ImageView fx:id="imgViewOrders" fitHeight="80.0" fitWidth="80.0" layoutX="456.0" layoutY="165.0" onMouseClicked="#navigate" onMouseEntered="#playMouseEnterAnimation" onMouseExited="#playMouseExitAnimation" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../Accepts/2.png" />
+            </image>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </ImageView>
+        <Separator layoutX="29.0" layoutY="123.0" prefHeight="0.0" prefWidth="542.0" />
+        <Label fx:id="lblMenu" alignment="CENTER" layoutX="11.0" layoutY="283.0" prefHeight="26.0" prefWidth="577.0" stylesheets="@../Style_Sheet/main-form.css" text="Welcome" textAlignment="CENTER" textFill="#000235">
+            <font>
+                <Font name="DejaVu Sans Mono Bold" size="22.0" />
+            </font>
+        </Label>
+        <Label fx:id="lblDescription" alignment="CENTER" layoutX="14.0" layoutY="313.0" prefHeight="16.0" prefWidth="577.0" text="Please select one of above main operations to proceed">
+            <font>
+                <Font name="Ubuntu" size="12.0" />
+            </font>
+        </Label>
+        <Label layoutX="215.0" layoutY="39.0" text="Thogakade" textFill="#000235">
+            <font>
+                <Font name="System Bold Italic" size="30.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
