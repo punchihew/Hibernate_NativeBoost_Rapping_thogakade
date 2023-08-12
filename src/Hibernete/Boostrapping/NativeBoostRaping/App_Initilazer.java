@@ -32,7 +32,7 @@ public class App_Initilazer extends Application {
 //        transaction.commit();
 //        session.close();
 
-//        Customer customer = new Customer();
+    //        Customer customer = new Customer();
 //        customer.setId(5);
 //        customer.setName("Navishka");
 //        customer.setAddress("Matara");
@@ -101,7 +101,7 @@ public class App_Initilazer extends Application {
 //    }
 //}
 
-          //update
+//update
 //        Session session1 = SessionFactoryConfig.getInstance().getSession();
 //        Transaction transaction1 = session1.beginTransaction();
 //         Customer customer = session1.get(Customer.class,1);
@@ -111,16 +111,10 @@ public class App_Initilazer extends Application {
 //                 transaction1.commit();
 //                 session1.close();
 
-           //delete
+//delete
 //         Session session2 = SessionFactoryConfig.getInstance().getSession();
 //         Transaction transaction = session2.beginTransaction();
 //         Customer customer1 = session2.get(Customer.class,1);
 //         session2.delete(customer1);
 //         transaction.commit();
 //         session2.close();
-
-
-
-
-
-
